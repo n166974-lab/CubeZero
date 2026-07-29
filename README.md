@@ -8,7 +8,7 @@ Step 1: After downloading the program, go to the AlphaCube/data folder. Find the
 
 Step 2: Go to the CubeZeroApp folder and find run_cubezero.command and run_cubezero_windows.bat. The first file is for Mac users, while the second is for Windows users. Click on the appropriate file to launch the app.
 
-Step 3:Some additional files may be required, and you may also encounter authorization issues. If this happens, the best solution is to take a screenshot of the error and send it to an AI assistant for help.
+Step 3:For Mac users, when you click on the file it will show malware detected, in this case, go to settings/security and privacy and click <open anyway>
 
 Note: Sometimes, it may take two or three attempts to open the app. If nothing happens, terminate the process and try again. This is because the dataset needs some time to load fully.
 
