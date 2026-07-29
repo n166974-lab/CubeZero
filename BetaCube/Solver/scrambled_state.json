@@ -1,0 +1,126 @@
+{
+  "format": "2x2-rubiks-cube-scramble",
+  "version": 1,
+  "seed": 7002045533638965641,
+  "scramble_length": 20,
+  "scramble_sequence": [
+    "m6",
+    "m8",
+    "m5",
+    "m3",
+    "m5",
+    "m3",
+    "m8",
+    "m8",
+    "m1",
+    "m6",
+    "m3",
+    "m8",
+    "m4",
+    "m2",
+    "m2",
+    "m5",
+    "m3",
+    "m2",
+    "m5",
+    "m2"
+  ],
+  "stickers": [
+    {
+      "position": 1,
+      "color": 2
+    },
+    {
+      "position": 2,
+      "color": 2
+    },
+    {
+      "position": 3,
+      "color": 3
+    },
+    {
+      "position": 4,
+      "color": 5
+    },
+    {
+      "position": 5,
+      "color": 6
+    },
+    {
+      "position": 6,
+      "color": 5
+    },
+    {
+      "position": 7,
+      "color": 4
+    },
+    {
+      "position": 8,
+      "color": 1
+    },
+    {
+      "position": 9,
+      "color": 1
+    },
+    {
+      "position": 10,
+      "color": 4
+    },
+    {
+      "position": 11,
+      "color": 4
+    },
+    {
+      "position": 12,
+      "color": 6
+    },
+    {
+      "position": 13,
+      "color": 6
+    },
+    {
+      "position": 14,
+      "color": 6
+    },
+    {
+      "position": 15,
+      "color": 3
+    },
+    {
+      "position": 16,
+      "color": 5
+    },
+    {
+      "position": 17,
+      "color": 1
+    },
+    {
+      "position": 18,
+      "color": 2
+    },
+    {
+      "position": 19,
+      "color": 1
+    },
+    {
+      "position": 20,
+      "color": 3
+    },
+    {
+      "position": 21,
+      "color": 2
+    },
+    {
+      "position": 22,
+      "color": 3
+    },
+    {
+      "position": 23,
+      "color": 4
+    },
+    {
+      "position": 24,
+      "color": 5
+    }
+  ]
+}
