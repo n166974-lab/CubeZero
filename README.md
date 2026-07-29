@@ -5,7 +5,7 @@ An algorithm designed to solve both the 3×3×3 Rubik's Cube and the 2×2×2 Rub
 
 # App Download
 If you are a mac user, click on CubeZeroMac.zip to download app.
-
+If you are a Windows user, click on CubeZero_Window_builder.zip to download the app. Then, double-click BUILD_CUBEZERO_WINDOWS.bat to build the app. This requires Python to be installed on your computer.
 
 
 
