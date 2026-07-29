@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CubeZero 3D</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./node_modules/three/build/three.module.js",
+        "three/addons/": "./node_modules/three/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main id="app" aria-label="CubeZero game">
+    <header class="topbar">
+      <nav class="tabs" aria-label="Cube selection">
+        <button id="tabAlpha" class="tab active" type="button">
+          <img src="./assets/alphacube_3d_tab.png" alt="">
+          <span>AlphaCube · 3×3</span>
+        </button>
+        <button id="tabBeta" class="tab" type="button">
+          <img src="./assets/betacube_3d_tab.png" alt="">
+          <span>BetaCube · 2×2</span>
+        </button>
+        <button id="tabSettings" class="tab settings-tab" type="button">
+          <img class="settings-icon" src="./assets/settings_icon.png" alt="">
+          <span data-i18n="settings">Settings</span>
+        </button>
+      </nav>
+    </header>
+
+    <section class="workspace">
+      <aside class="sidebar">
+        <div>
+          <p class="eyebrow">CUBEZERO 3D</p>
+          <h1 id="modeTitle">AlphaCube</h1>
+          <p id="modeSubtitle" class="subtitle"></p>
+        </div>
+
+        <div class="actions">
+          <button id="scrambleButton" class="action primary" type="button"></button>
+          <button id="solveButton" class="action solve" type="button"></button>
+          <button id="resetButton" class="action quiet" type="button"></button>
+        </div>
+
+        <div class="divider"></div>
+
+        <section class="status-card" aria-live="polite">
+          <p id="statusHeading" class="label"></p>
+          <h2 id="thinkingText"></h2>
+          <p id="detailText" class="detail"></p>
+        </section>
+
+        <section class="command-card">
+          <p id="commandHeading" class="label"></p>
+          <code id="commandText"></code>
+        </section>
+
+        <p id="messageText" class="message"></p>
+      </aside>
+
+      <section class="stage">
+        <div id="viewport" aria-label="Interactive 3D Rubik's Cube"></div>
+        <div class="stage-copy">
+          <strong id="stageMode">ALPHACUBE · 3×3</strong>
+          <span id="orbitHint"></span>
+        </div>
+        <div id="moveBadge" class="move-badge" hidden></div>
+      </section>
+    </section>
+  </main>
+
+  <section id="intro" class="intro" aria-label="CubeZero introduction">
+    <div class="intro-center">
+      <img src="./assets/cubezero_logo.png" alt="CubeZero" class="intro-logo">
+      <p id="introLine" class="intro-line"><span class="cursor">│</span></p>
+    </div>
+    <p class="intro-footer">ALPHACUBE 3×3 · BETACUBE 2×2</p>
+    <div class="page-edge" aria-hidden="true"></div>
+  </section>
+
+  <dialog id="settingsDialog" class="settings-dialog">
+    <form method="dialog">
+      <div class="dialog-heading">
+        <span class="dialog-icon">⚙</span>
+        <div>
+          <h2 data-i18n="settingsTitle">Settings</h2>
+          <p data-i18n="settingsDescription">Customize CubeZero</p>
+        </div>
+      </div>
+      <fieldset>
+        <legend data-i18n="language">Interface language</legend>
+        <label>
+          <input type="radio" name="language" value="en" checked>
+          <span>English</span>
+        </label>
+        <label>
+          <input type="radio" name="language" value="zh">
+          <span>简体中文</span>
+        </label>
+      </fieldset>
+      <div class="dialog-actions">
+        <button id="cancelSettings" class="dialog-button quiet" value="cancel" type="button"></button>
+        <button id="applySettings" class="dialog-button apply" value="default" type="button"></button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
