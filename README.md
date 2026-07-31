@@ -16,6 +16,8 @@ BetaCube (2×2×2): Contains all the core algorithms and setup for solving the 2
 
 CubeZeroApp: Includes the program that visually displays the results of the algorithms.
 
+# How does it works
+https://drive.google.com/file/d/1RMSPI8PUjOH9wDfsN9EAykwJH480Gg-d/view?usp=sharing
 
 
 
