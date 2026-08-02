@@ -55,6 +55,10 @@
 | `AlphaCube` | Core algorithms and setup for solving the **3×3×3 Rubik's Cube**. |
 | `BetaCube`  | Core algorithms and setup for solving the **2×2×2 Rubik's Cube**. |
 
+## How does it Work
+
+https://docs.google.com/document/d/1r_lkJdez0JtvTfN2Ho2z_Eb2aMEn3r4ieiU4jmYbCEs/edit?usp=sharing
+
 
 
 
