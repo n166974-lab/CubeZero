@@ -43,10 +43,10 @@
 3. Navigate to:
 
    ```text
-   BetaCube/Solver/color_evaluation.py
+   BetaCube/Solver/color_evaluation_solver.py
    ```
 
-4. Run `color_evaluation.py` to solve the scrambled cube.
+4. Run `color_evaluation_solver.py` to solve the scrambled cube.
 
 ## Project Structure
 
