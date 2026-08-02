@@ -1,23 +1,59 @@
-<img width="754" height="653" alt="image" src="https://github.com/user-attachments/assets/239f054b-9cbd-4ca6-b908-39eeb254c279" />
+# CubeZero
 
-# CubeZero:
-An algorithm designed to solve both the 3×3×3 Rubik's Cube and the 2×2×2 Rubik's Cube.
+**CubeZero** is an algorithm-based Rubik's Cube solver designed to solve both the **3×3×3** and **2×2×2** Rubik's Cubes.
 
+## Getting Started
 
-# App Download
-If you are a mac user, click on CubeZeroMac.zip to download app.
+### AlphaCube — 3×3×3
 
-If you are a Windows user, click on CubeZero_Window_builder.zip to download the app. Then, double-click BUILD_CUBEZERO_WINDOWS.bat to build the app. This requires Python to be installed on your computer.
+1. Navigate to:
 
-# Folders 
-AlphaCube (3×3×3): Contains all the core algorithms and setup for solving the 3×3×3 Rubik's Cube.
+   ```text
+   AlphaCube/tools/scrambler.py
+   ```
 
-BetaCube (2×2×2): Contains all the core algorithms and setup for solving the 2×2×2 Rubik's Cube.
+2. Run `scrambler.py` to generate a new scrambled cube state. The generated state will be saved to:
 
-CubeZeroApp: Includes the program that visually displays the results of the algorithms.
+   ```text
+   AlphaCube/data/scrambled_state.json
+   ```
 
-# How does it work
-https://drive.google.com/file/d/1RMSPI8PUjOH9wDfsN9EAykwJH480Gg-d/view?usp=sharing
+3. Navigate to:
+
+   ```text
+   AlphaCube/tools/beam_database_solver.py
+   ```
+
+4. Run `beam_database_solver.py` to solve the scrambled cube.
+
+### BetaCube — 2×2×2
+
+1. Navigate to:
+
+   ```text
+   BetaCube/Solver/scrambler.py
+   ```
+
+2. Run `scrambler.py` to generate a new scrambled cube state. The generated state will be saved to:
+
+   ```text
+   BetaCube/Solver/scrambled_state.json
+   ```
+
+3. Navigate to:
+
+   ```text
+   BetaCube/Solver/color_evaluation.py
+   ```
+
+4. Run `color_evaluation.py` to solve the scrambled cube.
+
+## Project Structure
+
+| Folder      | Description                                                       |
+| ----------- | ----------------------------------------------------------------- |
+| `AlphaCube` | Core algorithms and setup for solving the **3×3×3 Rubik's Cube**. |
+| `BetaCube`  | Core algorithms and setup for solving the **2×2×2 Rubik's Cube**. |
 
 
 
