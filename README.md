@@ -24,7 +24,13 @@
    AlphaCube/tools/beam_database_solver.py
    ```
 
-4. Run `beam_database_solver.py` to solve the scrambled cube.
+4. Run `beam_database_solver.py` to solve the scrambled cube:
+
+ ```text
+   python3 "AlphaCube/tools/beam_database_solver.py" \
+  --beam-width 20000 \
+  --depth 100
+  ```
 
 ### BetaCube — 2×2×2
 
